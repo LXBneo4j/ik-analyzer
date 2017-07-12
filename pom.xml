@@ -6,11 +6,14 @@
 	<version>3.2.8</version>
 	<name>IK Analyzer 3</name>
 	<description>A dictionary and grammar-based Chinese segmenter.</description>
+	<properties>
+		<analyzer.version>3.0.3</analyzer.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
-			<version>3.0.3</version>
+			<version>${analyzer.version}</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -28,13 +31,13 @@
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-analyzers</artifactId>
-			<version>3.0.3</version>
+			<version>${analyzer.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-smartcn</artifactId>
-			<version>3.0.3</version>
+			<version>${analyzer.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
