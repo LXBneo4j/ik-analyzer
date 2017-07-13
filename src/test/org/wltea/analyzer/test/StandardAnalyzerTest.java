@@ -82,8 +82,8 @@ public class StandardAnalyzerTest extends TestCase{
 		TokenStream tokenStream = ss.tokenStream("", reader);
 		try {
 			while(tokenStream.incrementToken()){
-//				TermAttribute termAttribute = tokenStream.getAttribute(TermAttribute.class);
-//				System.out.println(termAttribute.toString());
+				TermAttribute termAttribute = tokenStream.getAttribute(TermAttribute.class);
+				System.out.println(termAttribute.toString());
 				
 			}
 		} catch (IOException e) {

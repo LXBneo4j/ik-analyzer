@@ -32,13 +32,13 @@
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-analyzers</artifactId>
 			<version>${analyzer.version}</version>
-			<scope>test</scope>
+			<!--<scope>test</scope>-->
 		</dependency>
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-smartcn</artifactId>
 			<version>${analyzer.version}</version>
-			<scope>test</scope>
+			<!--<scope>test</scope>-->
 		</dependency>
 
     </dependencies>
